@@ -1,7 +1,7 @@
 {
   "name": "Guard Bot",
   "description": "Telegram moderation & guard bot",
-  "repository": "https://github.com/Oxeigns/Guard",
+  "repository": "https://github.com/netizen-0/protection",
   "keywords": ["telegram", "bot", "pyrogram", "guard", "moderation"],
   "env": {
     "BOT_TOKEN": {
