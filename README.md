@@ -1,5 +1,5 @@
 # Sirion Guard Bot
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Oxeigns/Guard&app=myappname)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/netizen-0/protection&app=myappname)
 Sirion is a Telegram moderation bot built with [Pyrogram](https://docs.pyrogram.org/).
 It offers a compact set of tools to keep groups clean while remaining easy to configure via inline buttons.
 
