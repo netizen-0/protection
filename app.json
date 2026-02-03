@@ -1,0 +1,62 @@
+{
+  "name": "Guard Bot",
+  "description": "Telegram moderation & guard bot",
+  "repository": "https://github.com/Oxeigns/Guard",
+  "keywords": ["telegram", "bot", "pyrogram", "guard", "moderation"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Telegram API ID from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from my.telegram.org",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "MongoDB connection URI (mongodb:// or mongodb+srv://)",
+      "required": true
+    },
+    "MONGO_DB": {
+      "description": "MongoDB database name",
+      "required": false,
+      "value": "oxygen"
+    },
+    "OWNER_ID": {
+      "description": "Telegram user ID of bot owner",
+      "required": true
+    },
+    "LOG_LEVEL": {
+      "description": "Logging level (DEBUG, INFO, WARNING, ERROR)",
+      "required": false,
+      "value": "INFO"
+    },
+    "LOG_GROUP_ID": {
+      "description": "Telegram group ID for logs",
+      "required": false
+    },
+    "SUPPORT_CHAT_URL": {
+      "description": "Support group URL",
+      "required": false,
+      "value": "https://t.me/aghoris"
+    },
+    "DEVELOPER_URL": {
+      "description": "Developer contact URL",
+      "required": false,
+      "value": "https://t.me/aghoris"
+    },
+    "PANEL_IMAGE_URL": {
+      "description": "Panel image URL",
+      "required": false,
+      "value": "https://files.catbox.moe/uvqeln.jpg"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  }
+}
